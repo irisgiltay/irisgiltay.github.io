@@ -1,0 +1,586 @@
+/* MAIN */
+
+body 
+{
+  background-image: url('../img/achtergrond_website.jpg');
+}
+
+.header 
+{
+     background-image: url('../img/header.jpg');
+     padding: 50px;
+}
+
+#menu
+{
+     margin: 0;
+     padding: 0;
+	 list-style-type: none;
+	 position: absolute;
+}
+#menu a
+{
+     color: #FFFFFF;
+     text-decoration: none;
+     background-color: #F87217;
+     font-family: Arial Black, sans-serif;
+     width: 365.7px;
+     padding: 10px 5px;
+     margin-bottom: 0px;
+     display: block;
+     list-style-type: none;
+	 text-align: center;
+}
+#menu a:hover
+{
+     background-color: #FFFFFF;
+     color:#F82717;
+}	
+.active  /* laat zien op welke pagina je je bevindt */
+{
+  background-color: #FFFFFF;
+  color: #F82717
+}
+#menu ul
+{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+#menu li
+{
+     float: left;
+     background-color:#003366;
+     min-width:100px;
+}
+
+/* HOMEPAGE */
+
+iframe.edge /* youtube video */
+{
+   display: block;
+   margin: 100px 10px 10px 400px;
+}
+
+p.edge /* bijschrift youtube video */
+{
+	 color: #000000;
+	 background-color: #FFA148;
+	 margin: 10px 200px 30px 400px;
+	 width: 624px;
+	 padding: 10px;
+	 border: 0px;
+	 border-radius: 8px;
+	 text-align: center;
+	 opacity: 0.5
+}
+
+h5.edge /* tekstvak met standaard informatie */
+{
+	 color: #000000;
+	 background-color: #FFBE80;
+	 margin: 10px 200px 100px 400px;
+	 width: 543px;
+	 padding: 50px;
+	 border: 0px;
+	 border-radius: 0px;
+	 text-align: left;
+	 font-family: Arial, sans-serif
+}
+
+/* PAGE 2: MEMBER PROFILES */
+
+/* twee kolommen */
+
+.column 
+{
+  float: left;
+  width: 50%;
+}
+
+/* namen boven foto's bandleden met schaduw effect */
+
+h3.edgename
+{
+	 color: #000000;
+	 margin-top: 190px;
+	 text-align: center;
+	 font-family: sans-serif;
+	 text-shadow: 2px 2px 5px red;
+}
+
+h3.edgename2
+{
+	 color: #000000;
+	 margin-top: 80px;
+	 text-align: center;
+	 font-family: sans-serif;
+	 text-shadow: 2px 2px 5px red;
+}
+
+/* foto's bandleden */
+
+img.edge
+{
+	 margin-left: 125px;
+}
+
+
+/* tekst onder foto's bandleden: info bandleden & side note */
+
+p.edgeinfo
+{
+	 color: #000000;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h5.edgenote
+{    
+     color: orange;
+	 background-color: #FFFDF0;
+	 font-family: Arial;
+     margin-top: 50px;
+	 margin-left: 125px;
+	 width: 450px;
+	 padding: 10px;
+	 border: 5px solid orange;
+}
+
+span /* markering tekst/background color onder tekst in specifieke gedeelten in de tekst */
+{
+  background-color: orange;
+}
+
+
+/* PAGE 3: DISCOGRAPHY */
+
+/* drie kolommen */
+
+.column2
+{
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* namen van de albums boven de foto's ervan */
+
+h4.edgealbumname1
+{
+	 color: #000000;
+	 margin-top: 100px;
+	 margin-bottom: 0px;
+	 margin-left: 120px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbumname2
+{
+	 color: #000000;
+	 margin-top: 100px;
+	 margin-bottom: 0px;
+	 margin-left: 135px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbumname3
+{
+	 color: #000000;
+	 margin-top: 100px;
+	 margin-bottom: 0px;
+	 margin-left: 155px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbumname4
+{
+	 color: #000000;
+	 margin-top: 50px;
+	 margin-bottom: 0px;
+	 margin-left: 120px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbumname5
+{
+	 color: #000000;
+	 margin-top: 50px;
+	 margin-bottom: 0px;
+	 margin-left: 135px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbumname6
+{
+	 color: #000000;
+	 margin-top: 32px;
+	 margin-bottom: 0px;
+	 margin-left: 155px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+/* foto's album covers */
+
+img.edgealbum1
+{
+     margin-left: 120px;
+	 margin-top: 0px;
+}
+
+img.edgealbum2
+{
+     margin-left: 135px;
+	 margin-top: 0px;
+}
+
+img.edgealbum3
+{
+     margin-left: 155px;
+	 margin-top: 0px;
+}
+
+/* informatie albums onder foto's */
+
+h4.edgealbuminfo1
+{
+	 color: #000000;
+	 margin-top: 5px;
+	 margin-left: 120px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbuminfo2
+{
+	 color: #000000;
+	 margin-top: 5px;
+	 margin-left: 135px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+h4.edgealbuminfo3
+{
+	 color: #000000;
+	 margin-top: 5px;
+	 margin-left: 155px;
+     text-align: left;
+	 font-family: Arial;
+}
+
+/* meer span kleuren */
+
+span.edgespanfade
+{
+	 background-color: #FFC253;
+}
+
+span.edgespan2
+{
+	 background-color: red
+}
+
+span.edgespan2fade
+{
+	 background-color: #F33E3E;
+}
+
+span.edgespan3
+{
+	 background-color: #38D3F9;
+}
+
+span.edgespan3fade
+{
+	 background-color: #8DE4F9;
+}
+
+span.edgespan4
+{
+     background-color: #E5B13D;
+}
+
+span.edgespan4fade
+{
+	 background-color: #DFC386;
+}
+
+span.edgespan5
+{
+	 background-color: #00199E;
+}
+
+span.edgespan5fade
+{
+	 background-color: #49579D;
+}
+
+/* tabel aantal verkochte albums 2018 - 2020 onderaan de pagina */
+
+table, th, td 
+{
+     border: 3px solid black;
+     border-collapse: collapse;
+}
+
+th, td 
+{
+     padding: 15px;
+     text-align: left;
+}
+
+table
+{
+     width: 100%;    
+     background-color: #FBFBFB;
+     font-family: Arial;
+}
+
+/* PAGE 4: Individual Content */
+
+h3.contentnamehj
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #DC054C;
+}
+
+h3.contentnamesh
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #F7C44F;
+}
+
+h3.contentnameyh
+{    
+     color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #2DE0D1;
+}
+
+h3.contentnameys
+{    
+     color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #D48BDF;
+}
+
+h3.contentnamecs
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #B07000;
+}
+
+h3.contentnamemg
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #CA0000;
+}
+
+h3.contentnamewy
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #FF99B6;
+}
+
+h3.contentnamejh
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 50px;
+	 text-shadow: 2px 2px 5px #96FE4D;
+}
+
+iframe.edgecontent
+{
+     display: block;
+     margin: 0px 10px 10px 425px;
+}
+
+h4.contentinfohj
+{
+	 color: #AB0F43;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfosh
+{
+	 color: #BD8E24;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfoyh
+{
+	 color: #22958B;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfoys
+{
+	 color: #8E5F95;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfocs
+{
+	 color: #7B4E00;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfomg
+{
+	 color: #B40707;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfowy
+{
+	 color: #C38496;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h4.contentinfojh
+{
+	 color: #63A534;
+	 margin-top: 5px;
+	 text-align: center;
+	 font-family: Arial;
+}
+
+h3.edgetextblockic
+{
+	 color: orange;
+     width: 650px;
+	 margin-top: 100px;
+	 margin-left: 50px;
+	 padding: 10px;
+	 border: 5px solid orange;
+	 background-color: #FFFDF0;
+     text-align: left;
+	 font-family: Arial;
+}	 
+
+h2.nero
+{
+	 color: black;
+	 font-family: Arial;
+	 text-align: center;
+	 text-shadow: 2px 2px 5px #FF0000;
+	 margin-top: 100px;
+}
+
+img.edgecontent
+{
+	 border: 3px solid black;
+	 margin-top: 0px;
+	 margin-left: 500px;
+}
+
+h4.neroinfo
+{
+	 color: #B40707;
+	 font-family: Arial;
+	 text-align: center;
+	 margin-top: 5px;
+}
+
+audio.audio
+{
+	 margin-top: 0px;
+	 margin-left: 600px;
+}
+
+form.edge
+{
+	 margin-top: 10px;
+	 margin-left: 690px;
+}
+
+#canvas
+{
+	 margin-top: 10px;
+	 margin-left: 30px;
+	 background-color: #1FAB6F;
+	 opacity: 0.1
+}
+
+h1.edge
+{
+	 color: white;
+	 margin-top: 5px;
+	 background-image: url('../img/ateezgroupimage.jpg');
+	 width: 1080px;
+	 height: 360px;
+	 margin-left: 200px;
+	 border: 5px solid black;
+	 text-align: center;
+	 font-family: copperplate, fantasy;
+	 letter-spacing: 1px;
+}
+
+a:link
+{
+	 color: orange;
+}
+
+a:visited
+{
+	 color: orange;
+}
+
+a:hover
+{
+	 color: white;
+}
+
+.footer 
+{
+     background-color: #F87217;
+     color: #FFFFFF;
+	 padding: 1px;
+	 text-align: center;
+	 font-family: copperplate, fantasy;
+	 letter-spacing: 1px;
+	 word-spacing: 50px;
+}

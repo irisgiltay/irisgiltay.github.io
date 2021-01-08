@@ -36,7 +36,7 @@ body
      background-color: #FFFFFF;
      color:#F82717;
 }	
-.active  /* laat zien op welke pagina je je bevindt */
+#menu a:active  /* laat zien op welke pagina je je bevindt */
 {
   background-color: #FFFFFF;
   color: #F82717
